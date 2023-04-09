@@ -1,12 +1,13 @@
 body{
 	background-color:hsl(212, 45%, 89%);
-	padding: 70px 0;
+	min-height: 100vh;
+    	display: grid;
+    	place-items: center;
 
 }
 
 .card{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	margin:auto;
 	background-color: white;
 	text-align: center;
 	max-width: 250px;
